@@ -1,0 +1,12 @@
+# Git Normalization
+
+# Auto-detect text files and ensure they use LF.
+*       text=auto eol=lf
+
+# Known files in this repository; apply text attributes and ensure the use LF.
+*.dist  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.php   text eol=lf diff=php
+*.txt   text eol=lf
+*.xml   text eol=lf

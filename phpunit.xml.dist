@@ -1,0 +1,59 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.8/phpunit.xsd"
+    backupGlobals="true"
+    backupStaticAttributes="false"
+    beStrictAboutChangesToGlobalState="true"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutTestSize="true"
+    beStrictAboutTestsThatDoNotTestAnything="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    bootstrap="vendor/autoload.php"
+    cacheTokens="false"
+    checkForUnintentionallyCoveredCode="true"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    forceCoversAnnotation="true"
+    mapTestClassNameToCoveredClassName="false"
+    printerClass="PHPUnit_TextUI_ResultPrinter"
+    printerFile="/path/to/ResultPrinter.php"
+    processIsolation="false"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnRisky="false"
+    stopOnSkipped="false"
+    testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+    testSuiteLoaderFile="/path/to/StandardTestSuiteLoader.php"
+    timeoutForLargeTests="60"
+    timeoutForMediumTests="10"
+    timeoutForSmallTests="1"
+    verbose="false">
+
+    <!-- Code Coverage -->
+    <filter>
+        <!-- The attributes adds all files from the directory to the coverage output, even if they were not testes. -->
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="var/coverage"/>
+    </logging>
+
+    <!-- PHP Configuration -->
+    <php>
+        <!-- Do not limit the amount of memory during test execution. -->
+        <ini name="memory_limit" value="-1"/>
+    </php>
+
+    <!-- Available Test Suites -->
+    <testsuites>
+        <testsuite name="unit_tests">
+            <directory suffix="Test.php">test</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

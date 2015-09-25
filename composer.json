@@ -1,0 +1,33 @@
+{
+    "name": "fleshgrinder/value-object",
+    "description": "Abstract value object implementation as basis for custom domain value objects.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Fussenegger",
+            "email": "fleshgrinder@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "fleshgrinder/equalable": "~0.0",
+        "fleshgrinder/stringable": "~0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fleshgrinder\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fleshgrinder\\Core\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
