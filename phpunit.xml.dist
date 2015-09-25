@@ -11,7 +11,7 @@
     bootstrap="vendor/autoload.php"
     cacheTokens="false"
     checkForUnintentionallyCoveredCode="true"
-    colors="true"
+    colors="false"
     convertErrorsToExceptions="true"
     convertNoticesToExceptions="true"
     convertWarningsToExceptions="true"
@@ -39,9 +39,6 @@
             <directory>src</directory>
         </whitelist>
     </filter>
-    <logging>
-        <log type="coverage-html" target="var/coverage"/>
-    </logging>
 
     <!-- PHP Configuration -->
     <php>

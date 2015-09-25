@@ -1,0 +1,10 @@
+# Code Climate Configuration
+#
+# @see https://codeclimate.com/
+ratings:
+    paths:
+        - src/**
+        - test/**
+exlude_paths:
+    - var
+    - vendor

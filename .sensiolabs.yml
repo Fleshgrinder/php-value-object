@@ -1,0 +1,9 @@
+# Code Climate Configuration
+#
+# @see https://insight.sensiolabs.com/
+global_exclude_dirs:
+    - var
+    - vendor
+rules:
+    php.interface_has_no_interface_suffix:
+        enabled: false

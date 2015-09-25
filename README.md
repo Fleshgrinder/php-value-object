@@ -1,4 +1,8 @@
 # Value Object
+[![Build Status](https://travis-ci.org/Fleshgrinder/php-value-object.svg)](https://travis-ci.org/Fleshgrinder/php-value-object)
+[![Code Climate](https://codeclimate.com/github/Fleshgrinder/php-value-object/badges/gpa.svg)](https://codeclimate.com/github/Fleshgrinder/php-value-object)
+[![Test Coverage](https://codeclimate.com/github/Fleshgrinder/php-value-object/badges/coverage.svg)](https://codeclimate.com/github/Fleshgrinder/php-value-object/coverage)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de/mini.png)](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de)
 
 ## Install
 Open a terminal, enter your project directory and execute the following command to add this package to your
