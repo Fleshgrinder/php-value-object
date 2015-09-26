@@ -1,7 +1,9 @@
-[![Build Status](https://travis-ci.org/Fleshgrinder/php-value-object.svg)](https://travis-ci.org/Fleshgrinder/php-value-object)
-[![Code Climate](https://codeclimate.com/github/Fleshgrinder/php-value-object/badges/gpa.svg)](https://codeclimate.com/github/Fleshgrinder/php-value-object)
-[![Test Coverage](https://codeclimate.com/github/Fleshgrinder/php-value-object/badges/coverage.svg)](https://codeclimate.com/github/Fleshgrinder/php-value-object/coverage)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de/mini.png)](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de)
+[![Build Status](https://img.shields.io/travis/Fleshgrinder/php-value-object.svg?style=flat-square)](https://travis-ci.org/Fleshgrinder/php-value-object)
+[![Code Climate](https://img.shields.io/codeclimate/github/Fleshgrinder/php-value-object/badges/gpa.svg?style=flat-square)](https://codeclimate.com/github/Fleshgrinder/php-value-object)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/Fleshgrinder/php-value-object.svg?style=flat-square)](https://codeclimate.com/github/Fleshgrinder/php-value-object/coverage)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/512975d9-5cd0-4f65-9334-31bbe732d6de.svg?style=flat-square)](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de)
+[![Packagist](https://img.shields.io/packagist/v/Fleshgrinder/value-object.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/value-object)
+[![Packagist License](https://img.shields.io/packagist/l/Fleshgrinder/value-object.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/value-object)
 # Value Object
 Abstract **value object** package that contains the building blocks to create custom domain value objects.
 
