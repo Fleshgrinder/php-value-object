@@ -4,6 +4,7 @@
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/512975d9-5cd0-4f65-9334-31bbe732d6de.svg?style=flat-square)](https://insight.sensiolabs.com/projects/512975d9-5cd0-4f65-9334-31bbe732d6de)
 [![Packagist](https://img.shields.io/packagist/v/Fleshgrinder/value-object.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/value-object)
 [![Packagist License](https://img.shields.io/packagist/l/Fleshgrinder/value-object.svg?style=flat-square)](https://packagist.org/packages/fleshgrinder/value-object)
+[![VersionEye](https://img.shields.io/versioneye/d/user/projects/560724b95a262f001a000169.svg?style=flat-square)](https://www.versioneye.com/user/projects/560724b95a262f001a000169)
 # Value Object
 Abstract **value object** package that contains the building blocks to create custom domain value objects.
 
